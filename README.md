@@ -1,4 +1,4 @@
-### This Express endpoint application queries a local database created on MySQL. The table contains car data, including the make, model, year, and whether or not the car is marked as deleted (deleted_flag).
+# This Express endpoint application queries a local database created on MySQL. The table contains car data, including the make, model, year, and whether or not the car is marked as deleted (deleted_flag).
 
 Endpoints:
 - The GET endpoint queries the database and fetches all the data in the `car` table where the `deleted_flag` value is 0, then returns the data to the front end.
